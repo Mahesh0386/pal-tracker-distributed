@@ -48,7 +48,6 @@ public class ApplicationServer {
         serverProcess.destroyForcibly();
     }
 
-
     public static void waitOnPorts(String... ports) throws InterruptedException {
         for (String port : ports) waitUntilServerIsUp(port);
     }
