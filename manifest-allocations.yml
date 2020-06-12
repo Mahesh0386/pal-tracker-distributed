@@ -13,6 +13,3 @@ applications:
   - tracker-service-registry
   - tracker-sso
   - tracker-config-server
-
-
-  ./gradlew cloudNativeDeveloperDistributedSystemWithSecurity -PuaaUrl= -PregistrationServerUrl=https://registration-pal-mahesh.apps.evans.pal.pivotal.io -PbacklogServerUrl=https://backlog-pal-mahesh.apps.evans.pal.pivotal.io -PallocationsServerUrl=https://allocations-pal-mahesh.apps.evans.pal.pivotal.io -PtimesheetsServerUrl=https://timesheets-pal-mahesh.apps.evans.pal.pivotal.io
